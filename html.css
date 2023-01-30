@@ -1,0 +1,45 @@
+
+body {
+    background-color: beige;
+}
+@font-face {
+    font-family: "XanhMono";
+    src: url("fonts/XanhMono-Regular.ttf") format("truetype");
+}
+thead, tr, td, th {
+    border: solid 1px;
+    border-collapse: collapse;
+    border-color: purple;
+    padding-right: 6em;
+    border-left: 0;
+    border-right: 0;
+}
+
+table {
+    border: solid 3px;
+    border-collapse: collapse;
+    border-color: blueviolet;
+    margin: 0 auto;
+}
+
+th {
+    text-align: center;
+    font-family: "Abril Fatface";
+    background-color: antiquewhite;
+}
+
+h2, h1 {
+    text-align: center;
+}
+
+h2 {
+    color: palevioletred;
+}
+
+.tag {
+    font-family:"Share Tech Mono";
+}
+
+td {
+    font-family: XanhMono;
+}
